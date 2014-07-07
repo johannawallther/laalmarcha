@@ -58,8 +58,8 @@ ul.menu {
 	text-align: center;
 }
 
-ul.menu.li{
-	display:inline
+ul.menu li {
+	display: inline;
 }
 
 ul.menu a {
