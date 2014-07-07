@@ -1,0 +1,204 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* Branding */
+
+body {
+	font-family: Domine;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Domine;
+    letter-spacing: 0em;
+}
+
+.node-type-blog h1,
+.node-type-course h1,
+.node-type-product h1,
+.node-type-product-type h1,
+ h2{
+	font-size: 27px
+}
+
+#page{
+	padding-bottom: 181px;
+	background-image: url("footer1.png");
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+h1.site-name, h2.site-name{
+	font-family: Parisienne, bold;
+	font-size: 80px;
+	text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.site-name a:hover {
+	text-decoration:none;
+}
+
+h2 a:link,h2 a:visited{
+	color: #000;	
+}
+
+.site-name a:link, .site-name a:visited{
+	color:#000;
+}
+
+.site-name-slogan {
+    float: none;
+}
+
+.menu{
+	font-size: 20px;
+}
+
+ul.menu {
+	text-align: center;
+}
+
+ul.menu a {
+	color: #000;
+}
+
+ul.menu  a.active {
+	color: olive;
+}
+
+a:link, a:visited {
+    color: olive;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Home */
+
+#block-imageblock-3 .block-body {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 19px;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+#block-imageblock-3 .block-body p {
+	margin-bottom: 0;
+	margin: 10px 0px;
+}
+
+#block-imageblock-3 {
+	position:relative;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#block-block-7 .block-inner,
+#block-block-8 .block-inner,
+#block-block-9 .block-inner{
+	padding: 0px;
+	position: relative;
+}
+
+#block-block-7 .block-title,
+#block-block-8 .block-title,
+#block-block-9 .block-title{
+    background: none repeat scroll 0 0 rgba(80, 80, 0, 0.5);
+    color: white;
+    font-size: 25px;
+    padding: 0 10px;
+    position: absolute;
+    top: 27px;
+}
+
+#zone-menu-wrapper{
+	padding-bottom: 30px;
+	border-bottom: 8px solid olive;
+}
+
+#zone-content-wrapper{
+	padding-top: 30px;
+}
+
+.region-sidebar-second .block-inner{
+	margin-bottom: 20px;
+	background-color: #c2c28f;
+	padding:20px;
+}
+
+.region-sidebar-second p{
+	line-height: 240%
+}
+
+/* Courses & Products */
+
+.view-cursos .views-field-field-image, 
+.node-events .field-name-field-image,
+.view-productos .views-field-field-image,
+.node-product-type .field-name-field-image,
+.view-blog .field-name-field-image,
+.node-product .field-name-field-image{
+	width: 220px;
+	float: left;
+}
+
+.view-cursos .views-field-field-intro,
+.node-events .field-name-field-intro,
+.node-events .field-name-field-price,
+.view-productos .views-field-field-intro,
+.node-product-type .field-name-field-intro,
+.node-product .field-name-body{
+	width: 380px;
+	float: left;
+	margin-left: 20px;
+}
+
+.view-cursos .views-field-field-intro,
+.node-events .field-name-field-intro,
+.node-events .field-name-field-price,
+.view-productos .views-field-field-intro,
+.node-product-type .field-name-field-intro{
+	font-size: 16px;
+}
+
+.view-cursos .views-row,
+.view-productos .views-row{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid grey;
+}
+
+.view-cursos .views-row-last,
+.view-productos .views-row-last{
+	border-bottom: none;
+}
+
+.node-events .field-name-field-long-body,
+.node-product-type .field-name-body{
+	width: 620px;
+	float: left;
+	margin-top: 20px;
+}
+
+/* Blog */
+
+.node-blog .field-name-field-image{
+    float: right;
+}
+
+.node-blog .submitted-by{
+	color: grey;
+    display: block;
+    font-size: 90%;
+    margin-bottom: 20px;
+}
+
+.view-blog .field-name-body{
+	width: 380px;
+	float: left;
+}
