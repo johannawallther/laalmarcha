@@ -66,7 +66,7 @@ ul.menu a {
 	color: #000;
 }
 
-ul.menu  a.active {
+ul.menu a.active {
 	color: olive;
 }
 
@@ -79,6 +79,9 @@ a:hover {
     text-decoration: underline;
 }
 
+#block-block-7 p, #block-block-8 p, #block-block-9 p {
+	margin-bottom: 0px;
+}
 
 /* Home */
 
