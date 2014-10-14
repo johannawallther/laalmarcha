@@ -349,5 +349,7 @@ settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
 fonts[google_fonts_api][] = "Domine&subset=latin#regular"
+fonts[google_fonts_api][] = "Domine&subset=latin#700"
 fonts[google_fonts_api][] = "Parisienne&subset=latin#regular"
+fonts[google_fonts_api][] = "Tangerine&subset=latin#700"
 version = '1.x'
