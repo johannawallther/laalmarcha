@@ -487,6 +487,7 @@ ul.menu li {
 .node-blog .field-name-field-image {
 	margin:auto;
     padding-right: 20px;
+		padding-bottom: 20px;
     float: left;
 }
 
