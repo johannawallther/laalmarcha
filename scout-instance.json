@@ -1,0 +1,9 @@
+{
+    "domain": "laalmarcha",
+    "origins": [
+        {
+            "name": "prod",
+            "source": "p2:\/var\/www\/laalmarcha"
+        }
+    ]
+}
